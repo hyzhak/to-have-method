@@ -11,6 +11,7 @@ npm install to-have-property --save-dev
 ## How to use
 
 ```javascript
+require('to-have-method');
 
 it('should have method', function() {
     expect({ m: function() {} }).toHaveProperty('m');
