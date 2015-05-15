@@ -1,6 +1,6 @@
 # toHaveMethod [![npm](https://img.shields.io/npm/v/to-have-method.svg)](https://www.npmjs.com/package/to-have-method) [![Build Status](https://travis-ci.org/hyzhak/to-have-method.svg?branch=master)](https://travis-ci.org/hyzhak/to-have-method)
 
-toHaveMethod matcher for Jasmine (http://jasmine.github.io/) to wherever object has method or not.
+toHaveMethod matcher for Jasmine (http://jasmine.github.io/) to check whether object has method or not.
 
 ## Installation
 
