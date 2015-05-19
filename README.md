@@ -17,4 +17,8 @@ it('should have method', function() {
     expect({ m: function() {} }).toHaveProperty('m');
 });
 
+it('should have methods', function() {
+    expect({ m1: function() {}, m2: function() {} }).toHaveProperty('m1', 'm2');
+});
+
 ```
