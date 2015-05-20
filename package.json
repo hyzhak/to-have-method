@@ -1,6 +1,6 @@
 {
   "name": "to-have-method",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "toHaveMethod matcher for Jasmine (http://jasmine.github.io/) to check whether object has method or not.",
   "main": "index.js",
   "dependencies": {

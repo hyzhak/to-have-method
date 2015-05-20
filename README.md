@@ -14,11 +14,11 @@ npm install to-have-property --save-dev
 require('to-have-method');
 
 it('should have method', function() {
-    expect({ m: function() {} }).toHaveProperty('m');
+    expect({ m: function() {} }).toHaveMethod('m');
 });
 
 it('should have methods', function() {
-    expect({ m1: function() {}, m2: function() {} }).toHaveProperty('m1', 'm2');
+    expect({ m1: function() {}, m2: function() {} }).toHaveMethods('m1', 'm2');
 });
 
 ```
