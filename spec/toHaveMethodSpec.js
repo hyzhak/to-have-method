@@ -16,4 +16,8 @@ describe('toHaveMethod matcher', function() {
 	it('should check whether is function', function() {
 		expect({ m: function() {}}).toHaveMethod('m');
 	});
+
+	it('should check whether is function', function() {
+		expect(null).not.toHaveMethod('m');
+	});
 });

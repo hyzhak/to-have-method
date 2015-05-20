@@ -16,4 +16,8 @@ describe('toHaveMethods matcher', function() {
 	it('should check whether is object has methods', function() {
 		expect({ m1: function() {}, m2: function() {}}).toHaveMethods('m1', 'm2');
 	});
+
+	it('should check whether is function', function() {
+		expect(null).not.toHaveMethods('m');
+	});
 });
