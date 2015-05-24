@@ -22,3 +22,6 @@ it('should have methods', function() {
 });
 
 ```
+
+## More
+[others Jasmine matchers and extensions](http://hyzhak.github.io/jasmine-extensions/)
